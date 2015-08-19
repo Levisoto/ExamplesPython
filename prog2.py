@@ -1,6 +1,8 @@
 #Numeros imparares
 n = 1
+h = ''
 while n <= 25:
 	if n%2 != 0:
-		print (n)
-	n = n +1
+		h += '%i ' % n
+	n += 1
+print (h)
